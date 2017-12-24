@@ -4,4 +4,11 @@
 
     <string name="com.twitter.sdk.android.CONSUMER_KEY">i23UsbuHSEhZkUeSrk5dcFsiq</string>
     <string name="com.twitter.sdk.android.CONSUMER_SECRET">7yMrWNKY1Zd6OzXYHnssCkJPyqCBzhEIVtpBQ6ktpxMBA4lQr9</string>
+
+    <string name="user_timeline">Home</string>
+    <string name="time_line2">OlxEgypt</string>
+    <string name="time_line3">AndroidDev</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_user"
+        android:id="@+id/user_home"
+        android:title="@string/user_timeline" />
+
+    <item
+        android:icon="@drawable/publci_timeline"
+        android:id="@+id/timeline2"
+        android:title="@string/time_line2" />
+
+    <item
+        android:icon="@drawable/publci_timeline"
+        android:id="@+id/timeline3"
+        android:title="@string/time_line3" />
+
+</menu>

@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setCallback(new Callback<TwitterSession>() {
             @Override
             public void success(Result<TwitterSession> result) {
-                Intent i = new Intent(MainActivity.this,ShowUserActivity.class);
+                Intent i = new Intent(MainActivity.this,TweetListActivity.class);
                 startActivity(i);
             }
 

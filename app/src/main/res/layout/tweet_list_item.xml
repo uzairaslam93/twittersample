@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/tw__composer_white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewUserProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/textViewDisplayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/imageViewUserProfile"
+        android:layout_toStartOf="@id/textViewTweetTime"
+        android:text="AndroidPub"
+        android:textColor="@color/tw__composer_black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewProfileId"
+        android:layout_below="@id/textViewDisplayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/imageViewUserProfile"
+        android:layout_toStartOf="@id/textViewTweetTime"
+        android:text="AndroidPub"
+        android:textColor="@color/tw__composer_light_gray"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+
+        android:id="@+id/textViewTweetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:text="12 Oct"
+        android:textColor="@color/tw__composer_light_gray" />
+
+    <TextView
+        android:id="@+id/textViewTweetDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProfileId"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/imageViewUserProfile"
+        android:text="adasdasdadasdasdadasdasdasdasdasdasdasdadsadasdadasdsadasdasdasdasdasdasdasdadasd"
+        android:textColor="@color/tw__composer_black"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/bottom_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewTweetDescription"
+        android:layout_marginTop="10dp"
+        android:background="@color/tw__composer_deep_gray"></View>
+
+</RelativeLayout>
